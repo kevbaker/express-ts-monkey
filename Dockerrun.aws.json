@@ -1,0 +1,20 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "kevbaker/express-ts-monkey",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3000"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "/usr/src/settings",
+      "ContainerDirectory": "/usr/src/settings"
+    }
+  ],
+  "Logging": "/var/log/eb.log"
+}
+

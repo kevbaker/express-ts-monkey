@@ -1,5 +1,5 @@
 {
-  "name": "express-monkey",
+  "name": "express-ts-monkey",
   "dependencies": {
     "lodash": "registry:npm/lodash#4.0.0+20160701205107",
     "node-uuid": "registry:npm/node-uuid#1.4.7+20160503013124"
