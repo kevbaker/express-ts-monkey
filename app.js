@@ -23,8 +23,8 @@ var App = (function () {
                 console.dir("App constructor error:", e);
                 return;
             }
-            console.dir("App listening on http://localhost:" + 3001);
-        });
+            console.dir("App listening on http://localhost:" + this.port);
+        }.bind(this));
     }
     /**
      * Start server
